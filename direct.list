@@ -1,6 +1,6 @@
 # NAME: direct
 # AUTHOR: Johnnygaogao
 # REPO: https://github.com/Johnnygaogao/airport
-# IP-CIDR: 1
+# DOMAIN-SUFFIX: 1
 # TOTAL: 1
-IP-CIDR,cdn.misakaf.org
+DOMAIN-SUFFIX,cdn.misakaf.org
