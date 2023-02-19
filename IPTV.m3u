@@ -1,9 +1,9 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml,https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml,https://iptv-org.github.io/epg/guides/uk/virginmedia.com.epg.xml,https://epg.112114.xyz/pp.xml,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://i.mjh.nz/au/Perth/epg.xml.gz,https://i.mjh.nz/PlutoTV/us.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" x-tvg-url="http://epg.it999.ru/epg.xml.gz"
-#EXTINF:-1 group-title="广州",广州综合
+#EXTINF:-1 tvg-name="广州综合" group-title="广州",广州综合
 http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzzh
-#EXTINF:-1 group-title="广州",广州新闻
+#EXTINF:-1 tvg-name="广州新闻" group-title="广州",广州新闻
 http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzxw
-#EXTINF:-1 group-title="广州",广东综艺
+#EXTINF:-1 tvg-name="广东综艺" group-title="广州",广东综艺
 http://159.75.85.63:8765/telegram@feiyangdigital-gdzy4k.m3u8
 #EXTINF:-1,tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",广东卫视
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227164/index.m3u8?servicetype=1
@@ -35,8 +35,6 @@ http://[2409:8087:4402:20:1:1216:401:43]/iptv.cdn.ha.chinamobile.com/PLTV/888888
 http://[2409:8087:4402:20:1:1216:401:41]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226118/index.m3u8
 #EXTINF:-1,tvg-name="SiTV乐游" tvg-logo="https://epg.112114.xyz/logo/SITV乐游.png" group-title="生活",SiTV乐游
 https://live.v1.mk/api/bestv.php?id=qjshd8m/8000000
-#EXTINF:-1,group-title="生活",BRTV纪实科教-8K
-http://downlive.brtvcloud.com/8krongmei1502/1502rongmeike8k.m3u8
 #EXTINF:-1,tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="生活",CHC高清电影
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="生活",CHC动作电影
@@ -73,10 +71,12 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225818/index.m3u
 http://159.75.85.63:5681/sxg.php?id=CCTV-16-4K_8000
 #EXTINF:-1,tvg-name="CCTV 4K超高清" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV 4K超高清
 https://live.v1.mk/api/bestv.php?id=cctv4k/15000000
-#EXTINF:-1,group-title="4K",欢笑剧场4K
+#EXTINF:-1,tvg-name="欢笑剧场4K" group-title="4K",欢笑剧场4K
 http://159.75.85.63:5681/sxg.php?id=hxjc-4k_8000
-#EXTINF:-1,group-title="4K",纯享4K
+#EXTINF:-1,tvg-name="纯享4K" group-title="4K",纯享4K
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225786/index.m3u8
-#EXTINF:-1,group-title="4K",4K超高清电影
+#EXTINF:-1,tvg-name="4K超高清电影" group-title="4K",4K超高清电影
 http://159.75.85.63:5681/sxg.php
+#EXTINF:-1,tvg-name="BRTV纪实科教-8K" group-title="4K",BRTV纪实科教-8K
+http://downlive.brtvcloud.com/8krongmei1502/1502rongmeike8k.m3u8
 
