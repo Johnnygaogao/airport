@@ -1,4 +1,8 @@
-#EXTM3U
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml,https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml,https://iptv-org.github.io/epg/guides/uk/virginmedia.com.epg.xml,https://epg.112114.xyz/pp.xml,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://i.mjh.nz/au/Perth/epg.xml.gz,https://i.mjh.nz/PlutoTV/us.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" x-tvg-url="http://epg.it999.ru/epg.xml.gz"
+#EXTINF:-1 group-title="广州",广州综合
+http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzzh
+#EXTINF:-1 group-title="广州",广州新闻
+http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzxw
 #EXTINF:-1,tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",广东卫视
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227164/index.m3u8?servicetype=1
 #EXTINF:-1,tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视
@@ -61,10 +65,10 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225818/index.m3u
 http://159.75.85.63:5681/sxg.php?id=CCTV-16-4K_8000
 #EXTINF:-1,tvg-name="CCTV 4K超高清" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV 4K超高清
 http://159.75.85.63:5681/sxg.php?id=ys4Kcq_2000
-#EXTINF:-1,欢笑剧场4K
+#EXTINF:-1,group-title="4K",欢笑剧场4K
 http://159.75.85.63:5681/sxg.php?id=hxjc-4k_8000
-#EXTINF:-1,纯享4K
+#EXTINF:-1,group-title="4K",纯享4K
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225786/index.m3u8
-#EXTINF:-1,4K超高清电影
+#EXTINF:-1,group-title="4K",4K超高清电影
 http://159.75.85.63:5681/sxg.php
 
