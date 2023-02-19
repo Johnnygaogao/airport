@@ -33,7 +33,7 @@ http://[2409:8087:4402:20:1:1216:401:43]/iptv.cdn.ha.chinamobile.com/PLTV/888888
 http://[2409:8087:4402:20:1:1216:401:41]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226118/index.m3u8
 #EXTINF:-1,tvg-name="SiTV乐游" tvg-logo="https://epg.112114.xyz/logo/SITV乐游.png" group-title="生活",SiTV乐游
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002157/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1,tvg-name="BTV纪实科教-8K" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="生活",BTV纪实科教-8K
+#EXTINF:-1,group-title="生活",BTV纪实科教-8K
 http://downlive.brtvcloud.com/8krongmei1502/1502rongmeike8k.m3u8
 #EXTINF:-1,tvg-name="CCTV1 综合" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV1 综合
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225642/index.m3u8
