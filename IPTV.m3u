@@ -4,7 +4,7 @@ http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzzh
 #EXTINF:-1 tvg-name="广州新闻" group-title="广州",广州新闻
 http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzxw
 #EXTINF:-1 tvg-name="广东综艺" group-title="广州",广东综艺
-http://159.75.85.63:8765/telegram@feiyangdigital-gdzy4k.m3u8
+http://iptv.tvfix.org/hls/jade.m3u8
 #EXTINF:-1,tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",广东卫视
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227164/index.m3u8?servicetype=1
 #EXTINF:-1,tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视
