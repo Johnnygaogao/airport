@@ -1,5 +1,3 @@
-;导入地址https://ghproxy.com/https://raw.githubusercontent.com/Johnnygaogao/airport/main/IPTV.m3u
-
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml,https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml,https://iptv-org.github.io/epg/guides/uk/virginmedia.com.epg.xml,https://epg.112114.xyz/pp.xml,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://i.mjh.nz/au/Perth/epg.xml.gz,https://i.mjh.nz/PlutoTV/us.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" x-tvg-url="http://epg.it999.ru/epg.xml.gz"
 #EXTINF:-1 tvg-name="广州综合" group-title="广州",广州综合
 http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzzh
@@ -82,3 +80,4 @@ http://159.75.85.63:5681/sxg.php
 #EXTINF:-1,tvg-name="BRTV纪实科教-8K" group-title="4K",BRTV纪实科教-8K
 http://downlive.brtvcloud.com/8krongmei1502/1502rongmeike8k.m3u8
 
+;导入地址https://ghproxy.com/https://raw.githubusercontent.com/Johnnygaogao/airport/main/IPTV.m3u
