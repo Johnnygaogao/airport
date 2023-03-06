@@ -3,15 +3,16 @@
 http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzzh
 #EXTINF:-1 tvg-name="广州新闻" group-title="广州",广州新闻
 http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzxw
-
+#EXTINF:-1,凤凰中文
+https://play-live.ifeng.com/live/06OLEGEGM4G.m3u8
+#EXTINF:-1,凤凰咨询
+http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1,tvg-name="CCTV 4K超高清" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV 4K超高清
 https://live.v1.mk/api/bestv.php?id=cctv4k/15000000
-#EXTINF:-1,tvg-name="欢笑剧场4K" group-title="4K",欢笑剧场4K
-http://159.75.85.63:5681/sxg.php?id=hxjc-4k_8000
+
 #EXTINF:-1,tvg-name="纯享4K" group-title="4K",纯享4K
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225786/index.m3u8
-#EXTINF:-1,tvg-name="4K超高清电影" group-title="4K",4K超高清电影
-http://159.75.85.63:5681/sxg.php
+
 #EXTINF:-1,tvg-name="BRTV纪实科教-8K" group-title="4K",BRTV纪实科教-8K
-http://downlive.brtvcloud.com/8krongmei1502/1502rongmeike8k.m3u8
+http://downlive.brtvcloud.com/jpegxs1510/8kzuiqingxi.m3u8
 
