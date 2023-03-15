@@ -1,7 +1,12 @@
-DOMAIN,infinityfly.top
-DOMAIN,misty.ltd/
-DOMAIN,cdn.misakaf.org
-IP-CIDR,cf3.misakaf.org
+# NAME: emby
+# AUTHOR: Johnnygaogao
+# REPO: https://github.com/Johnnygaogao/airport
+# DOMAIN-SUFFIX: 14
+# TOTAL: 14
+DOMAIN-SUFFIX,infinityfly.top
+DOMAIN-SUFFIX,misty.ltd
+DOMAIN-SUFFIX,cdn.misakaf.org
+DOMAIN-SUFFIX,cf3.misakaf.org
 DOMAIN-SUFFIX,mb3admin.com
 DOMAIN-SUFFIX,emby.imetyou.top
 DOMAIN-SUFFIX,kr.imetyou.top
@@ -9,6 +14,6 @@ DOMAIN-SUFFIX,sana.emby.eu.org
 DOMAIN-SUFFIX,happyav.eu.org
 DOMAIN-SUFFIX,162.55.225.218
 DOMAIN-SUFFIX,129.151.148.116
-DOMAIN,cflix.acemby.org
-DOMAIN,play.acemby.org
-DOMAIN,202.61.255.248
+DOMAIN-SUFFIX,cflix.acemby.org
+DOMAIN-SUFFIX,play.acemby.org
+DOMAIN-SUFFIX,202.61.255.248
