@@ -1,7 +1,7 @@
 DOMAIN,infinityfly.top
 DOMAIN,misty.ltd/
 DOMAIN,cdn.misakaf.org
-DOMAIN-SUFFIX,cf3.misakaf.org:443
+IP-CIDR,cf3.misakaf.org
 DOMAIN-SUFFIX,mb3admin.com
 DOMAIN-SUFFIX,emby.imetyou.top
 DOMAIN-SUFFIX,kr.imetyou.top
