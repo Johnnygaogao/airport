@@ -13,6 +13,7 @@ IP-CIDR,129.151.148.116,no-resolve
 IP-CIDR,202.61.255.248,no-resolve
 IP-CIDR,46.38.241.8,no-resolve
 DOMAIN-SUFFIX,playold.acemby.org
+DOMAIN-SUFFIX,play.acemby.org
 DOMAIN-SUFFIX,ju.dog
 DOMAIN-SUFFIX,pug.ju.dog
 DOMAIN-SUFFIX,corgi.ju.dog
