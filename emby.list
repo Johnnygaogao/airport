@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,kr.imetyou.top
 DOMAIN-SUFFIX,cf.imetyou.top
 DOMAIN-SUFFIX,sana.emby.eu.org
 DOMAIN-SUFFIX,happyav.eu.org
-IP-CIDR,,162.55.225.218,no-resolve
+IP-CIDR,162.55.225.218,no-resolve
 IP-CIDR,129.151.148.116,no-resolve
 IP-CIDR,202.61.255.248,no-resolve
 IP-CIDR,46.38.241.8,no-resolve
