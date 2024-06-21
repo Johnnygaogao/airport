@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX,cdnac.zox.show
+IP-CIDR,104.218.236.2/32,no-resolve
 DOMAIN-SUFFIX,cdn.hklive.tv
 DOMAIN-SUFFIX,stream-cdn.hkanime.live
-DOMAIN-SUFFIX,acemby.org
+
