@@ -2,3 +2,4 @@ DOMAIN-SUFFIX,entry.zox.show
 DOMAIN-SUFFIX,cdn.misakaf.org
 DOMAIN-SUFFIX,cf3.misakaf.org
 DOMAIN-SUFFIX,zox.show
+IP-CIDR,104.218.236.2/32,no-resolve
