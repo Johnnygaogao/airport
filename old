@@ -1,0 +1,112 @@
+ [custom]
+;设置规则标志位
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TelegramNL/TelegramNL.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TelegramSG/TelegramSG.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TelegramUS/TelegramUS.list
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=🌗 国外网站,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=🌗 国外网站,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
+ruleset=🌗 国外网站,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list
+ruleset=📺 LG,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LG/LG.list
+ruleset=📺 LG,https://raw.githubusercontent.com/Johnnygaogao/airport/main/LG.list
+ruleset=🎗️ 直连,https://raw.githubusercontent.com/Johnnygaogao/airport/main/direct.list
+ruleset=🎗️ 翻墙,https://raw.githubusercontent.com/Johnnygaogao/airport/main/AD.list
+ruleset=🎥 电视,https://raw.githubusercontent.com/Johnnygaogao/airport/main/tv.list
+ruleset=📽️ Emby,https://raw.githubusercontent.com/Johnnygaogao/airport/main/emby.list
+ruleset=🎞️ Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list
+ruleset=🎞️ Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=🏰 Disney+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
+ruleset=🎮 Steam,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.list
+ruleset=🎮 Xbox,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xbox/Xbox.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+ruleset=🛖 香港媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
+ruleset=🛖 香港媒体,https://raw.githubusercontent.com/Johnnygaogao/airport/main/HKmedia.list
+ruleset=🛖 香港媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.list
+ruleset=🛖 香港媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB/TVB.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIpV6.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/QuickConnect/QuickConnect.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+ruleset=🐟 漏网之鱼,[]FINAL
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=🚀 手动切换`select`.*
+custom_proxy_group=🎥 电视`select`[]DIRECT`[]平衡香港`[]香港`[]XSUS`[]下载`[]其它`[]🚀 手动切换
+custom_proxy_group=📽️ Emby`select`[]DIRECT`[]平衡香港`[]香港`[]XSUS`[]下载`[]其它`[]🚀 手动切换
+custom_proxy_group=🎞️ Netflix`select`[]平衡香港`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🏰 Disney+`select`[]平衡香港`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🎮 Steam`select`[]DIRECT`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🎮 Xbox`select`[]DIRECT`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 手动切换
+custom_proxy_group=📺 LG`select`[]DIRECT`[]平衡香港`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🛖 香港媒体`select`[]DIRECT`[]平衡香港`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🌍 国外媒体`select`[]DIRECT`[]平衡香港`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🌗 国外网站`select`[]DIRECT`[]平衡香港`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🎗️ 直连`select`[]DIRECT`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🎗️ 翻墙`select`[]DIRECT`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 手动切换
+custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT`[]🚀 手动切换
+custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`[]香港`[]XSUS`[]其它`[]🚀 手动切换
+
+custom_proxy_group=平衡香港`load-balance`(?=.*(HKT))^((?!(三网直连)).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=香港`select`(?=.*(香港))^((?!(SS|HKT|IPLC|实验节点|LB)).)*$
+custom_proxy_group=XSUS`select`(SS|IPLC)
+custom_proxy_group=其它`select`(?=.*)^((?!(香港|下载)).)*$
+custom_proxy_group=下载`load-balance`(下载)`http://www.gstatic.com/generate_204`300,,100
+;custom_proxy_group=故障转移`fallback`.*`http://www.gstatic.com/generate_204`300,100
+;custom_proxy_group=负载均衡`load-balance`(下载)`http://www.gstatic.com/generate_204`300,,100
+
+;custom_proxy_group=中继台湾`url-test`(?=.*(中继))^((?!(04|05|家宽|柬埔寨|美国|日本|香港|印度|新加坡|马来西亚|韩国|菲律宾|越南|泰国)).)*$`http://www.gstatic.com/generate_204`300,,50
+;custom_proxy_group=梯神其它`select`(?=.*(中继|隧道|家宽))^((?!(台湾)).)*$
+;custom_proxy_group=无限`select`(#)
+;custom_proxy_group=泡泡香港`url-test`(?=.*(香港))^((?!(中继|入口|家宽)).)*$`http://www.gstatic.com/generate_204`300,,50
+;custom_proxy_group=泡泡其它`select`(?=.*(香港家宽|日本|新加坡|美国|台湾|英国|德国|韩国|印度|爱尔兰|巴西|法国|阿根廷|土耳其|俄罗斯|乌克兰))^((?!(中继|入口|隧道)).)*$
+;custom_proxy_group=香港中继`url-test`(Hong Kong)`http://www.gstatic.com/generate_204`300,,25
+;custom_proxy_group=新加坡中继`url-test`(Singapore)`http://www.gstatic.com/generate_204`300,,25
+;custom_proxy_group=慈善其它`select`(?=.*(台湾|新加坡|韩国|日本|美国|japan|US))^((?!(中继|隧道|优化入口|高速入口)).)*$
+;custom_proxy_group=香港`url-test`(?=.*(香港))^((?!(流媒体|家宽|中继|优化入口|高速入口)).)*$`http://www.gstatic.com/generate_204`300,,25
+;custom_proxy_group=新加坡`url-test`(?=.*(新加坡))^((?!(中继)).)*$`http://www.gstatic.com/generate_204`300,,50
+;custom_proxy_group=韩国`url-test`(?=.*(韩国))^((?!(中继)).)*$`http://www.gstatic.com/generate_204`300,,50
+;custom_proxy_group=日本`url-test`(?=.*(日本))^((?!(中继)).)*$`http://www.gstatic.com/generate_204`300,,50
+;custom_proxy_group=美国`url-test`(?=.*(美国))^((?!(中继)).)*$`http://www.gstatic.com/generate_204`300,,50
+;custom_proxy_group=🎗️多倍`select`(x10|x5|X5)
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
