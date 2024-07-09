@@ -1,4 +1,5 @@
 IP-CIDR,38.46.220.138/32,no-resolve
+IP-CIDR,5.78.76.108/32,no-resolve
 DOMAIN-SUFFIX,entry.zox.show
 DOMAIN-SUFFIX,cdn.misakaf.org
 DOMAIN-SUFFIX,cf3.misakaf.org
