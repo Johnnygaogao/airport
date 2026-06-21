@@ -1,0 +1,86 @@
+[custom]
+;
+custom_proxy_group = 🚀节点选择`select`[]`.*`
+custom_proxy_group = 📺LG`select`优选香港`香港`亚洲`DIRECT`🚀节点选择
+custom_proxy_group = 🎬香港媒体`select`优选香港`香港`亚洲`DIRECT`🚀节点选择
+custom_proxy_group = 🎞️欧美媒体`select`优选香港`香港`亚洲`DIRECT`🚀节点选择
+custom_proxy_group = 📽️Emby`select`亚洲`DIRECT`香港`优选香港`🚀节点选择
+custom_proxy_group = 🌍Google`select`香港`优选香港`亚洲`🚀节点选择
+custom_proxy_group = 🤖AI`select`亚洲`优选香港`香港`🚀节点选择
+custom_proxy_group = 🍎苹果`select`DIRECT`香港`优选香港`亚洲`🚀节点选择
+custom_proxy_group = Ⓜ️微软`select`DIRECT`香港`优选香港`亚洲`🚀节点选择
+custom_proxy_group = 📱社交媒体`select`香港`优选香港`亚洲`🚀节点选择`DIRECT
+custom_proxy_group = 🛑广告拦截`select`REJECT`DIRECT`香港`优选香港`亚洲`🚀节点选择
+custom_proxy_group = 🐟漏网之鱼`select`DIRECT`香港`优选香港`亚洲`🚀节点选择
+
+
+custom_proxy_group = 香港`select`[]`filter`^(?!.*(专线|BGP)).*(香港)
+custom_proxy_group = 优选香港`select`[]`filter`^(?!.*(AWS|HKT)).*(香港|BGP)
+custom_proxy_group = 亚洲`url-test`[]`filter`(?i)^(?!.*(日本0[1-9]|台湾0[1-9]|家宽))((?=.*日本)(?=.*流媒体)|(?=.*台湾)(?=.*优化))`http://www.gstatic.com/generate_204`300
+
+custom_rule_provider =lg`http`domain`mrs`https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/lg.mrs`86400`📺LG
+custom_rule_list =lg1`https://raw.githubusercontent.com/Johnnygaogao/airport/main/LG.list`classic`📺LG
+custom_rule_provider =spotify`http`domain`mrs`https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.mrs`86400`🎬香港媒体
+custom_rule_provider =tvb`http`domain`mrs`https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/tvb.mrs`86400`🎬香港媒体
+custom_rule_provider =viu`http`domain`mrs`https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/viu.mrs`86400`🎬香港媒体
+custom_rule_provider =mytvsuper`http`domain`mrs`https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mytvsuper.mrs`86400`🎬香港媒体
+custom_rule_provider =netflix`http`domain`mrs`https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/netflix.mrs`86400`🎞️欧美媒体
+custom_rule_provider =netflix_ip`http`ipcidr`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/netflix.mrs`86400`🎞️欧美媒体
+custom_rule_provider =disney`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/disney.mrs`86400`🎞️欧美媒体
+custom_rule_list =emby`https://raw.githubusercontent.com/Johnnygaogao/airport/refs/heads/main/emby.list`classic`📽️Emby
+custom_rule_provider =google`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs`86400`🌍Google
+custom_rule_provider =google_ip`http`ipcidr`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs`86400`🌍Google
+custom_rule_provider =youtube`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/youtube.mrs`86400`🌍Google
+custom_rule_provider =AI`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/openai.mrs`86400`🤖AI
+custom_rule_provider =category-ai-chat-!cn`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-chat-!cn.mrs`86400`🤖AI
+custom_rule_provider =gemini`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google-gemini.mrs`86400`🤖AI
+custom_rule_provider =anthropic`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/anthropic.mrs`86400`🤖AI
+custom_rule_provider =apple`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/apple.mrs`86400`🍎苹果
+custom_rule_provider =icloud`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/icloud.mrs`86400`🍎苹果
+custom_rule_provider =microsoft`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/microsoft.mrs`86400`Ⓜ️微软
+custom_rule_provider =onedrive`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/onedrive.mrs`86400`Ⓜ️微软
+custom_rule_provider =telegram-ip`http`ipcidr`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/telegram.mrs`86400`📱社交媒体
+custom_rule_provider =telegram`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/telegram.mrs`86400`📱社交媒体
+custom_rule_provider =twitter`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/twitter.mrs`86400`📱社交媒体
+custom_rule_provider =twitter-ip`http`ipcidr`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/twitter.mrs`86400`📱社交媒体
+custom_rule_provider =facebook`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/facebook.mrs`86400`📱社交媒体
+custom_rule_provider =facebook-ip`http`ipcidr`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/facebook.mrs`86400`📱社交媒体
+custom_rule_provider =whatsapp`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/whatsapp.mrs`86400`📱社交媒体
+custom_rule_provider =instagram`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/instagram.mrs`86400`📱社交媒体
+custom_rule_provider =discord`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/discord.mrs`86400`📱社交媒体
+custom_rule_provider = ads`http`domain`mrs`https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ads-all.mrs`86400`🛑广告拦截
+
+rules = RULE-SET,lg,📺LG
+rules = RULE-SET,lg1,📺LG
+rules = RULE-SET,spotify,🎬香港媒体
+rules = RULE-SET,tvb,🎬香港媒体
+rules = RULE-SET,viu,🎬香港媒体
+rules = RULE-SET,mytvsuper,🎬香港媒体
+rules = RULE-SET,netflix,🎞️欧美媒体
+rules = RULE-SET,netflix_ip,🎞️欧美媒体
+rules = RULE-SET,disney,🎞️欧美媒体
+rules = RULE-SET,emby,📽️Emby
+rules = RULE-SET,google,🌍Google
+rules = RULE-SET,google_ip,🌍Google
+rules = RULE-SET,youtube,🌍Google
+rules = RULE-SET,AI,🤖AI
+rules = RULE-SET,category-ai-chat-!cn,🤖AI
+rules = RULE-SET,gemini,🤖AI
+rules = RULE-SET,anthropic,🤖AI
+rules = RULE-SET,apple,🍎苹果
+rules = RULE-SET,icloud,🍎苹果
+rules = RULE-SET,microsoft,Ⓜ️微软
+rules = RULE-SET,onedrive,Ⓜ️微软
+rules = RULE-SET,telegram-ip,📱社交媒体
+rules = RULE-SET,telegram,📱社交媒体
+rules = RULE-SET,twitter,📱社交媒体
+rules = RULE-SET,twitter-ip,📱社交媒体
+rules = RULE-SET,facebook,📱社交媒体
+rules = RULE-SET,facebook-ip,📱社交媒体
+rules = RULE-SET,whatsapp,📱社交媒体
+rules = RULE-SET,instagram,📱社交媒体
+rules = RULE-SET,discord,📱社交媒体
+rules = RULE-SET,ads,🛑广告拦截
+rules = MATCH,🐟漏网之鱼
+
+exclude_remarks = (剩余|流量|时间|到期|官网|产品|重置)
